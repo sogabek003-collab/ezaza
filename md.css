@@ -1,0 +1,61 @@
+/* md version: [768px; 991px] */
+@media (max-width: 991.5px) {
+  /* home start */
+  .home_col {
+    gap: 40px;
+  }
+  /* home end */
+
+  /* about start */
+  .about_textBox {
+    margin-bottom: 20px;
+  }
+  /* about end */
+
+  /* footer start */
+  .footer_copyright {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .footer_terms {
+    justify-content: center;
+  }
+  /* footer end */
+
+  /*
+  --------------------
+  --------------------
+  --------------------
+  --------------------
+  --------------------
+  */
+
+  /* hero start */
+  .hero_textBox {
+    text-align: center;
+  }
+
+  .hero_imgBox {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  /* hero end */
+
+  /* list start */
+  .list_textBox {
+    text-align: center;
+  }
+
+  .list_textBox div {
+    text-align: left;
+  }
+  /* list start */
+
+  /* product start */
+  .product_card {
+    width: calc((100% - 12px) / 2);
+  }
+  /* product end */
+}

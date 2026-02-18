@@ -1,0 +1,222 @@
+/* sm version: [576px; 767px] */
+@media (max-width: 767.5px) {
+  /* BEM */
+  .f-size-1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .f-size-2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .f-size-3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .f-size-4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .button-lg {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 16px;
+  }
+
+  /* header start */
+  .header_logo a img {
+    height: 32px;
+  }
+
+  .header_menu ul {
+    background-color: var(--white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100dvh;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .header_menu ul.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  #header_list,
+  #header_x {
+    font-size: 16px;
+    line-height: 24px;
+    background-color: var(--blue);
+    padding: 0 4px;
+    border-radius: 8px;
+    color: var(--white);
+    transition-duration: 0.2s;
+  }
+
+  #header_list:hover,
+  #header_x:hover {
+    background-color: var(--green);
+    cursor: pointer;
+  }
+
+  #header_x {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  /* header end */
+
+  /* home start */
+  .home {
+    min-height: calc(100dvh - 65px);
+  }
+  /* home end */
+
+  /* about start */
+  .about {
+    padding: 65px 0;
+  }
+
+  .about_textBox {
+    text-align: center;
+  }
+  /* about end */
+
+  /* info start */
+  .info {
+    padding-bottom: 65px;
+  }
+  /* info end */
+
+  /* sectors start */
+  .sectors {
+    padding: 65px 0;
+  }
+
+  .sectors_title {
+    margin-bottom: 40px;
+  }
+  /* sectors end */
+
+  /* partners start */
+  .partners {
+    padding: 65px 0;
+  }
+
+  .partners_title {
+    margin-bottom: 40px;
+  }
+  /* partners end */
+
+  /* map start */
+  .map {
+    padding: 65px 0;
+  }
+
+  .map_title {
+    margin-bottom: 40px;
+  }
+
+  .map_info {
+    margin-bottom: 24px;
+  }
+
+  .map_info h5 {
+    text-align: center;
+  }
+  /* map end */
+
+  /* footer start */
+  .footer {
+    padding: 65px 0;
+  }
+
+  .footer_main {
+    text-align: center;
+  }
+
+  .footer_logo a {
+    margin: 0 auto 16px;
+  }
+
+  .footer_logo a img {
+    height: 32px;
+  }
+
+  .footer_social {
+    justify-content: center;
+  }
+
+  .footer_contact {
+    text-align: center;
+  }
+
+  .footer_contactCard {
+    justify-content: center;
+  }
+
+  .footer_sectors {
+    text-align: center;
+  }
+  /* footer end */
+
+  /*
+  --------------------
+  --------------------
+  --------------------
+  --------------------
+  --------------------
+  */
+
+  /* hero start */
+  .hero {
+    padding: 65px 0;
+  }
+  /* hero end */
+
+  /* list start */
+  .list {
+    padding: 65px 0;
+  }
+  /* list end */
+
+  /* products start */
+  .products {
+    padding: 65px 0;
+  }
+
+  .product_card {
+    width: 100%;
+  }
+  /* products end */
+
+  /* contacts start */
+  .contacts {
+    padding: 65px 0;
+  }
+
+  .contacts_title {
+    margin-bottom: 40px;
+  }
+
+  .contacts_info {
+    margin-bottom: 24px;
+  }
+
+  .contacts_info h5 {
+    text-align: center;
+  }
+
+  .contacts_form {
+    text-align: center;
+  }
+  /* contacts end */
+}

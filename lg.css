@@ -1,0 +1,25 @@
+/* lg version: [992px; 1199px] */
+@media (max-width: 1199.5px) {
+  /* BEM */
+  /* font-size */
+  .f-size-1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .f-size-2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .f-size-3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  /* products start */
+  .product_card {
+    width: calc((100% - 24px) / 3);
+  }
+  /* products end */
+}

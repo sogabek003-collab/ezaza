@@ -1,0 +1,1548 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EZAZA - Ko`p tarmoqli biznes guruhi</title>
+    <link rel="shortcut icon" href="image/png/logo.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header start -->
+    <header class="header">
+      <div class="container">
+        <div class="row header_row">
+          <div class="col-6 col-md-3">
+            <div class="header_logo">
+              <a href="index.html">
+                <img src="image/png/logo.png" alt="logo" />
+                <span class="f-size-4 f-weight-500 c-black">EZAZA</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-9">
+            <div class="header_menu">
+              <ul>
+                <i
+                  onclick="addActive()"
+                  class="bi bi-x-lg d-block d-md-none"
+                  id="header_x"
+                ></i>
+
+                <li>
+                  <a
+                    href="#about"
+                    onclick="addActive()"
+                    class="f-size-5 f-weight-400 c-gray"
+                  >
+                    Biz haqimizda
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#sectors"
+                    onclick="addActive()"
+                    class="f-size-5 f-weight-400 c-gray"
+                  >
+                    Bo`limlar
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#partners"
+                    onclick="addActive()"
+                    class="f-size-5 f-weight-400 c-gray"
+                  >
+                    Hamkorlar
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#map" onclick="addActive()" class="button">
+                    Bog`lanish
+                  </a>
+                </li>
+
+                <li class="header_langBox">
+                  <a
+                    href="index.html"
+                    class="header_lang f-size-6 f-weight-400 c-white active"
+                  >
+                    uz
+                  </a>
+
+                  <a
+                    href="ru-index.html"
+                    class="header_lang f-size-6 f-weight-400 c-white"
+                  >
+                    ru
+                  </a>
+
+                  <a
+                    href="en-index.html"
+                    class="header_lang f-size-6 f-weight-400 c-white"
+                  >
+                    en
+                  </a>
+                </li>
+              </ul>
+
+              <i
+                onclick="addActive()"
+                class="bi bi-list d-block d-md-none"
+                id="header_list"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- hero start -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-3">
+            <div class="hero_imgBox">
+              <img src="image/png/logo-china.png" alt="logo" />
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-9">
+            <div class="hero_textBox">
+              <span class="f-size-5 f-weight-500 c-blue">
+                2020-yildan beri
+              </span>
+
+              <h1 class="f-size-1 f-weight-700 c-black">ezaza china</h1>
+
+              <p class="f-size-3 f-weight-400 c-gray">
+                Xitoydan import xizmatlari
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- list start -->
+    <section class="list">
+      <div class="container">
+        <div class="row row-gap-3 row-gap-sm-4">
+          <div class="col-12 col-lg-6">
+            <div class="list_textBox">
+              <span class="f-size-6 f-weight-500 c-blue">biz haqimizda</span>
+
+              <h2 class="f-size-2 f-weight-700 c-black">EZAZA CHINA haqida</h2>
+
+              <p class="f-size-4 f-weight-400 c-gray">
+                EZAZA CHINA — Xitoydan tovarlarni import qilish bo`yicha
+                professional xizmat. Ishlab chiqaruvchi qidirish, sifat
+                nazorati, logistika va bojxona rasmiylashtiruvi — barchasi biz
+                bilan.
+              </p>
+
+              <div class="f-size-4 f-weight-400 c-black">
+                "O`zbekiston tadbirkorlariga Xitoy bozorini ochib berish."
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="list_listBox">
+              <h4 class="f-size-4 f-weight-500 b-black">Bizning xizmatlar</h4>
+
+              <ul>
+                <li class="f-size-5 f-weight-400 c-black">Tovar qidirish</li>
+
+                <li class="f-size-5 f-weight-400 c-black">Narx kelishuv</li>
+
+                <li class="f-size-5 f-weight-400 c-black">Sifat nazorati</li>
+
+                <li class="f-size-5 f-weight-400 c-black">Xalqaro logistika</li>
+
+                <li class="f-size-5 f-weight-400 c-black">
+                  Bojxona xizmatlari
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- list end -->
+
+    <!-- products start -->
+    <section class="products">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="products_title">
+              <span class="f-size-6 f-weight-500 c-blue">mahsulotlar</span>
+
+              <h3 class="f-size-2 f-weight-700 c-black">
+                EZAZA CHINA mahsulotlari
+              </h3>
+
+              <p class="f-size-4 f-weight-400 c-gray">
+                Eng yaxshi sifatli mahsulotlar va xizmatlarimiz bilan tanishing
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <ul class="products_categories">
+              <li class="products_category button active" data-filter="all">
+                Barcha mahsulotlar
+              </li>
+              <li class="products_category button" data-filter="filter-1">
+                Termizlar
+              </li>
+              <li class="products_category button" data-filter="filter-2">
+                Blaknotlar
+              </li>
+              <li class="products_category button" data-filter="filter-3">
+                Naborlar
+              </li>
+              <li class="products_category button" data-filter="filter-4">
+                Nastolniklar
+              </li>
+              <li class="products_category button" data-filter="filter-5">
+                Statuetkalar
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="product_cardBox">
+              <div class="product_card" data-item="filter-1">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img1.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Matoviy Termiz</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-1">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img2.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Matoviy Termiz</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-1">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img3.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Matoviy Termiz</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-1">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img4.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Matoviy Termiz</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!--  -->
+
+              <div class="product_card" data-item="filter-2">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img5.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Blaknot</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-2">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img6.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Blaknot</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-2">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img7.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Blaknot</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-2">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img8.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Blaknot</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!--  -->
+
+              <div class="product_card" data-item="filter-3">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img9.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Naborlar</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-3">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img10.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Naborlar</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-3">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img11.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Naborlar</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-3">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img12.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Naborlar</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!--  -->
+
+              <div class="product_card" data-item="filter-4">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img13.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Nastolnik</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-4">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img14.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Nastolnik</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-4">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img15.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Nastolnik</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-4">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img16.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Nastolnik</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!--  -->
+
+              <div class="product_card" data-item="filter-5">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img17.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Statuetka</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-5">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img18.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Statuetka</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-5">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img19.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Statuetka</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="product_card" data-item="filter-5">
+                <div class="product_cardImg">
+                  <img src="image/jpg/gift_img20.jpg" alt="image" />
+                </div>
+
+                <div class="product_cardText">
+                  <h5 class="f-size-5 f-weight-500 c-black">Statuetka</h5>
+                  <span class="f-size-6 f-weight-400 c-gray">narxi:</span>
+
+                  <ul>
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        1-5 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        120 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        5-15 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        110 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        15-50 dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        90 000 UZS
+                      </span>
+                    </li>
+
+                    <li>
+                      <span class="f-size-6 f-weight-400 c-black">
+                        50+ dona
+                      </span>
+                      <span class="f-size-6 f-weight-500 c-blue">
+                        75 000 UZS
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- products end -->
+
+    <!-- contacts start -->
+    <section class="contacts">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-8 mx-auto">
+            <div class="contacts_title">
+              <span class="f-size-6 f-weight-500 c-blue">Bog`lanish</span>
+
+              <h4 class="f-size-2 f-weight-700 c-black">
+                EZAZA CHINA bilan bog`laning
+              </h4>
+
+              <p class="f-size-4 f-weight-400 c-gray">
+                Savollaringiz bormi? Biz bilan bog`laning!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="contacts_info">
+              <h5 class="f-size-4 f-weight-700 c-black">Aloqa ma'lumotlari</h5>
+
+              <div class="contacts_infoCard">
+                <div>
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+
+                <div>
+                  <h6 class="f-size-6 f-weight-500 c-black">Manzil</h6>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    Buxoro shahar, Gulchorbog` MFY
+                  </a>
+                </div>
+              </div>
+
+              <div class="contacts_infoCard">
+                <div>
+                  <i class="bi bi-telephone"></i>
+                </div>
+
+                <div>
+                  <h6 class="f-size-6 f-weight-500 c-black">Telefon</h6>
+                  <a
+                    href="tel:+998971811111"
+                    class="f-size-6 f-weight-400 c-gray"
+                  >
+                    +998 (97) 181-11-11
+                  </a>
+                </div>
+              </div>
+
+              <div class="contacts_infoCard">
+                <div>
+                  <i class="bi bi-envelope"></i>
+                </div>
+
+                <div>
+                  <h6 class="f-size-6 f-weight-500 c-black">Email</h6>
+
+                  <a
+                    href="mailto:info@ezazagroup.uz"
+                    class="f-size-6 f-weight-400 c-gray"
+                  >
+                    info@ezazagroup.uz
+                  </a>
+                </div>
+              </div>
+
+              <div class="contacts_infoCard">
+                <div>
+                  <i class="bi bi-instagram"></i>
+                </div>
+
+                <div>
+                  <h6 class="f-size-6 f-weight-500 c-black">Instagram</h6>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    lorem.ipsum.uz
+                  </a>
+                </div>
+              </div>
+
+              <div class="contacts_infoCard">
+                <div>
+                  <i class="bi bi-whatsapp"></i>
+                </div>
+
+                <div>
+                  <h6 class="f-size-6 f-weight-500 c-black">WhatsApp</h6>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    lorem.ipsum.uz
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6">
+            <div class="contacts_form">
+              <form action="" autocomplete="off">
+                <div>
+                  <label for="name" class="f-size-6 f-weight-500 c-black">
+                    Ismingiz:
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Ismingizni kiriting"
+                    class="f-size-6 f-weight-400 c-gray"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label
+                    for="phone"
+                    class="f-size-6 f-weight-500 c-black"
+                    class="f-size-6 f-weight-400 c-gray"
+                  >
+                    Telefon raqamingiz:
+                  </label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    pattern="\+998 \(\d{2}\) \d{3}-\d{2}-\d{2}"
+                    placeholder="+998 (90) 123-45-67"
+                    class="f-size-6 f-weight-400 c-gray"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="message" class="f-size-6 f-weight-500 c-black">
+                    Xabaringiz:
+                  </label>
+                  <textarea
+                    name=""
+                    id="message"
+                    placeholder="Xabaringizni yozing"
+                    class="f-size-6 f-weight-400 c-gray"
+                    rows="6"
+                    required
+                  ></textarea>
+                </div>
+
+                <button class="button">Yuborish</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contacts end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer_row row-gap-3 row-gap-sm-4">
+          <div class="col-12 col-md-6 col-xl-3 order-1 order-xl-1">
+            <div class="footer_main">
+              <div class="footer_logo">
+                <a href="index.html">
+                  <img src="image/png/logo.png" alt="logo" />
+                  <span class="f-size-4 f-weight-500 c-white">EZAZA</span>
+                </a>
+              </div>
+
+              <p class="f-size-6 f-weight-400 c-gray">
+                2011-yildan beri O`zbekistonda ishonchli hamkor. Ko`p tarmoqli
+                biznes guruhi.
+              </p>
+
+              <div class="footer_social">
+                <a href="#" target="_blank">
+                  <i class="bi bi-facebook"></i>
+                </a>
+
+                <a href="#" target="_blank">
+                  <i class="bi bi-instagram"></i>
+                </a>
+
+                <a href="#" target="_blank">
+                  <i class="bi bi-telegram"></i>
+                </a>
+
+                <a href="#" target="_blank">
+                  <i class="bi bi-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-xl-3 order-3 order-xl-2">
+            <div class="footer_sectors">
+              <h5 class="f-size-5 f-weight-500 c-white">Bo`limlar</h5>
+
+              <ul>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    ezaza gift
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    ezaza event
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    ezaza led light sound
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    ezaza embroidery art
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-xl-3 order-4 order-xl-3">
+            <div class="footer_sectors">
+              <h5 class="f-size-5 f-weight-500 c-white">Bo`limlar</h5>
+
+              <ul>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    ezaza home decor
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">ezaza med</a>
+                </li>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    ezaza trade
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    ezaza china
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3 order-2 order-xl-4">
+            <div class="footer_contact">
+              <h5 class="f-size-5 f-weight-500 c-white">Aloqa</h5>
+
+              <div class="footer_contactCard">
+                <a href="#" class="f-size-6 f-weight-400 c-gray">
+                  <i class="bi bi-geo-alt"></i>
+                  <span>Buxoro shahar, Gulchorbog` MFY</span>
+                </a>
+              </div>
+
+              <div class="footer_contactCard">
+                <a
+                  href="tel:+998971811111"
+                  class="f-size-6 f-weight-400 c-gray"
+                >
+                  <i class="bi bi-telephone"></i>
+                  <span>+998 (97) 181-11-11</span>
+                </a>
+              </div>
+
+              <div class="footer_contactCard">
+                <a
+                  href="mailto:info@ezazagroup.uz"
+                  class="f-size-6 f-weight-400 c-gray"
+                >
+                  <i class="bi bi-envelope"></i>
+                  <span>info@ezazagroup.uz</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="footer_copyright">
+              <p class="f-size-6 f-weight-400 c-gray">
+                <i class="bi bi-c-circle"></i>
+                <span> 2011-2024 EZAZA. Barcha huquqlar himoyalangan. </span>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="footer_terms">
+              <a href="#" class="f-size-6 f-weight-400 c-gray">
+                Maxfiylik siyosati
+              </a>
+
+              <a href="#" class="f-size-6 f-weight-400 c-gray">
+                Foydalanish shartlari
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

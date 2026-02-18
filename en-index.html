@@ -1,0 +1,874 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EZAZA — A Multi-Profile Business Group</title>
+    <link rel="shortcut icon" href="image/png/logo.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header start -->
+    <header class="header">
+      <div class="container">
+        <div class="row header_row">
+          <div class="col-6 col-md-3">
+            <div class="header_logo">
+              <a href="en-index.html">
+                <img src="image/png/logo.png" alt="logo" />
+                <span class="f-size-4 f-weight-500 c-black">EZAZA</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-9">
+            <div class="header_menu">
+              <ul>
+                <i
+                  onclick="addActive()"
+                  class="bi bi-x-lg d-block d-md-none"
+                  id="header_x"
+                ></i>
+
+                <li>
+                  <a
+                    href="#about"
+                    onclick="addActive()"
+                    class="f-size-5 f-weight-400 c-gray"
+                  >
+                    About Us
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#sectors"
+                    onclick="addActive()"
+                    class="f-size-5 f-weight-400 c-gray"
+                  >
+                    Sectors
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#partners"
+                    onclick="addActive()"
+                    class="f-size-5 f-weight-400 c-gray"
+                  >
+                    Partners
+                  </a>
+                </li>
+
+                <!-- <li>
+                  <a
+                    href="#map"
+                    onclick="addActive()"
+                    class="f-size-5 f-weight-400 c-gray"
+                  >
+                    Xarita
+                  </a>
+                </li> -->
+
+                <li>
+                  <a href="#map" onclick="addActive()" class="button">
+                    Get in Touch
+                  </a>
+                </li>
+
+                <li class="header_langBox">
+                  <a
+                    href="index.html"
+                    class="header_lang f-size-6 f-weight-400 c-white"
+                  >
+                    uz
+                  </a>
+
+                  <a
+                    href="ru-index.html"
+                    class="header_lang f-size-6 f-weight-400 c-white"
+                  >
+                    ru
+                  </a>
+
+                  <a
+                    href="en-index.html"
+                    class="header_lang f-size-6 f-weight-400 c-white active"
+                  >
+                    en
+                  </a>
+                </li>
+              </ul>
+
+              <i
+                onclick="addActive()"
+                class="bi bi-list d-block d-md-none"
+                id="header_list"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- home start -->
+    <section class="home">
+      <div class="container">
+        <div class="row home_row">
+          <div class="col-12 col-md-10 col-lg-8 home_col mx-auto">
+            <div class="home_textBox">
+              <span class="f-size-5 f-weight-500 c-green">
+                A Trusted Partner Since 2011
+              </span>
+
+              <h1 class="f-size-1 f-weight-700 c-white">EZAZA</h1>
+
+              <p class="f-size-3 f-weight-400 c-white">
+                A multi-profile business group — from gifts to medicine,
+                ensuring quality and trust in every sector.
+              </p>
+            </div>
+
+            <div class="home_infoBox">
+              <div>
+                <h4 class="f-size-2 f-weight-700 c-green">8+</h4>
+                <p class="f-size-5 f-weight-400 c-white">Business Lines</p>
+              </div>
+
+              <div>
+                <h4 class="f-size-2 f-weight-700 c-green">50+</h4>
+                <p class="f-size-5 f-weight-400 c-white">Partners</p>
+              </div>
+
+              <div>
+                <h4 class="f-size-2 f-weight-700 c-green">1000+</h4>
+                <p class="f-size-5 f-weight-400 c-white">Clients</p>
+              </div>
+
+              <div>
+                <h4 class="f-size-2 f-weight-700 c-green">6+</h4>
+                <p class="f-size-5 f-weight-400 c-white">Years of Excellence</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home end -->
+
+    <!-- about start -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row about_row">
+          <div class="col-12 col-lg-6">
+            <div class="about_textBox">
+              <span class="f-size-6 f-weight-500 c-blue">About Us</span>
+
+              <h2 class="f-size-2 f-weight-700 c-black">About EZAZA</h2>
+
+              <p class="f-size-4 f-weight-400 c-gray">
+                <span class="f-weight-700 c-black">EZAZA</span> is a
+                multi-profile business group established in 2011 in Uzbekistan.
+                We provide comprehensive services across diverse sectors,
+                including corporate gifts, event management, professional LED
+                lighting and sound systems, embroidery arts, home decor, medical
+                equipment, retail trade, and direct imports from China.
+              </p>
+
+              <p class="f-size-4 f-weight-400 c-gray">
+                Our company is dedicated to providing our clients with
+                high-quality products and services. Each of our business lines
+                is managed by a team of highly qualified specialists.
+              </p>
+
+              <p class="f-size-4 f-weight-400 c-gray">
+                We successfully collaborate with leading companies, government
+                organizations, and international partners across Uzbekistan.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="swiper about_swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide about_slide">
+                  <img src="image/jpg/about_img1.jpg" alt="slide" />
+                </div>
+
+                <div class="swiper-slide about_slide">
+                  <img src="image/jpg/about_img2.jpg" alt="slide" />
+                </div>
+
+                <div class="swiper-slide about_slide">
+                  <img src="image/jpg/about_img3.jpg" alt="slide" />
+                </div>
+
+                <div class="swiper-slide about_slide">
+                  <img src="image/jpg/about_img4.jpg" alt="slide" />
+                </div>
+
+                <div class="swiper-slide about_slide">
+                  <img src="image/jpg/about_img5.jpg" alt="slide" />
+                </div>
+
+                <div class="swiper-slide about_slide">
+                  <img src="image/jpg/about_img6.jpg" alt="slide" />
+                </div>
+
+                <div class="swiper-slide about_slide">
+                  <img src="image/jpg/about_img7.jpg" alt="slide" />
+                </div>
+
+                <div class="swiper-slide about_slide">
+                  <img src="image/jpg/about_img8.jpg" alt="slide" />
+                </div>
+
+                <div class="swiper-slide about_slide">
+                  <img src="image/jpg/about_img9.jpg" alt="slide" />
+                </div>
+
+                <div class="swiper-slide about_slide">
+                  <img src="image/jpg/about_img10.jpg" alt="slide" />
+                </div>
+
+                <div class="swiper-slide about_slide">
+                  <img src="image/jpg/about_img11.jpg" alt="slide" />
+                </div>
+
+                <div class="swiper-slide about_slide">
+                  <img src="image/jpg/about_img12.jpg" alt="slide" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- info start -->
+    <section class="info">
+      <div class="container">
+        <div class="row row-gap-3 row-gap-sm-4">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="info_card">
+              <div>
+                <i class="bi bi-buildings"></i>
+              </div>
+
+              <a href="#" class="f-size-5 f-weight-500 c-black">
+                Established in 2011
+              </a>
+              <p class="f-size-6 f-weight-400 c-gray">
+                Over 13 Years of Successful Operations
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="info_card">
+              <div>
+                <i class="bi bi-people"></i>
+              </div>
+
+              <a href="#" class="f-size-5 f-weight-500 c-black">
+                Professional Team
+              </a>
+              <p class="f-size-6 f-weight-400 c-gray">
+                100+ Qualified Specialists
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="info_card">
+              <div>
+                <i class="bi bi-globe2"></i>
+              </div>
+
+              <a href="#" class="f-size-5 f-weight-500 c-black">
+                International Cooperation
+              </a>
+              <p class="f-size-6 f-weight-400 c-gray">
+                Strong Relations with China, Turkey, and Russia
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="info_card">
+              <div>
+                <i class="bi bi-award"></i>
+              </div>
+
+              <a href="#" class="f-size-5 f-weight-500 c-black">
+                Quality Assurance
+              </a>
+              <p class="f-size-6 f-weight-400 c-gray">ISO-Compliant Products</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- info end -->
+
+    <!-- sectors start -->
+    <section class="sectors" id="sectors">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-8 mx-auto">
+            <div class="sectors_title">
+              <span class="f-size-6 f-weight-500 c-blue">
+                Our Business Lines
+              </span>
+
+              <h3 class="f-size-2 f-weight-700 c-black">
+                We operate across 8 key business sectors.
+              </h3>
+
+              <p class="f-size-4 f-weight-400 c-gray">
+                Each department provides professional services within its
+                specialized field.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-gap-3 row-gap-sm-4 sectors_row">
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="sectors_card">
+              <a href="#">
+                <div class="sectors_cardImg">
+                  <i class="bi bi-scissors"></i>
+                  <img src="image/jpg/sectors_img4.jpg" alt="image" />
+                </div>
+
+                <h5 class="f-size-5 f-weight-500 c-black">
+                  Ezaza embroidery art
+                </h5>
+                <p class="f-size-6 f-weight-400 c-gray">
+                  Embroidery Art & Textile Products
+                </p>
+
+                <div class="sectors_cardBtn">
+                  <span class="f-size-6 f-weight-500 c-blue">Read More</span>
+                  <i class="bi bi-arrow-right f-size-6 c-blue"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="sectors_card">
+              <a href="#">
+                <div class="sectors_cardImg">
+                  <i class="bi bi-graph-up-arrow"></i>
+                  <img src="image/jpg/sectors_img7.jpg" alt="image" />
+                </div>
+
+                <h5 class="f-size-5 f-weight-500 c-black">Ezaza trade</h5>
+                <p class="f-size-6 f-weight-400 c-gray">
+                  Wholesale and Retail Trade
+                </p>
+
+                <div class="sectors_cardBtn">
+                  <span class="f-size-6 f-weight-500 c-blue">Read More</span>
+                  <i class="bi bi-arrow-right f-size-6 c-blue"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="sectors_card">
+              <a href="#">
+                <div class="sectors_cardImg">
+                  <i class="bi bi-calendar4-event"></i>
+                  <img src="image/jpg/sectors_img2.jpg" alt="image" />
+                </div>
+
+                <h5 class="f-size-5 f-weight-500 c-black">Ezaza event</h5>
+                <p class="f-size-6 f-weight-400 c-gray">
+                  Event Management and Production
+                </p>
+
+                <div class="sectors_cardBtn">
+                  <span class="f-size-6 f-weight-500 c-blue">Read More</span>
+                  <i class="bi bi-arrow-right f-size-6 c-blue"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="sectors_card">
+              <a href="#">
+                <div class="sectors_cardImg">
+                  <i class="bi bi-lightbulb"></i>
+                  <img src="image/jpg/sectors_img3.jpg" alt="image" />
+                </div>
+
+                <h5 class="f-size-5 f-weight-500 c-black">
+                  Ezaza led light sound
+                </h5>
+                <p class="f-size-6 f-weight-400 c-gray">
+                  Professional LED Lighting and Sound Systems
+                </p>
+
+                <div class="sectors_cardBtn">
+                  <span class="f-size-6 f-weight-500 c-blue">Read More</span>
+                  <i class="bi bi-arrow-right f-size-6 c-blue"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="sectors_card">
+              <a href="#">
+                <div class="sectors_cardImg">
+                  <i class="bi bi-heart-pulse"></i>
+                  <img src="image/jpg/sectors_img6.jpg" alt="image" />
+                </div>
+
+                <h5 class="f-size-5 f-weight-500 c-black">Ezaza med</h5>
+                <p class="f-size-6 f-weight-400 c-gray">
+                  Medical Equipment and Supplies
+                </p>
+
+                <div class="sectors_cardBtn">
+                  <span class="f-size-6 f-weight-500 c-blue">Read More</span>
+                  <i class="bi bi-arrow-right f-size-6 c-blue"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="sectors_card">
+              <a href="detail_ezaza_gift.html">
+                <div class="sectors_cardImg">
+                  <i class="bi bi-gift"></i>
+                  <img src="image/jpg/sectors_img1.jpg" alt="image" />
+                </div>
+
+                <h5 class="f-size-5 f-weight-500 c-black">Ezaza gift</h5>
+                <p class="f-size-6 f-weight-400 c-gray">
+                  Gifts and Corporate Souvenirs
+                </p>
+
+                <div class="sectors_cardBtn">
+                  <span class="f-size-6 f-weight-500 c-blue">Read More</span>
+                  <i class="bi bi-arrow-right f-size-6 c-blue"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="sectors_card">
+              <a href="#">
+                <div class="sectors_cardImg">
+                  <i class="bi bi-house-door"></i>
+                  <img src="image/jpg/sectors_img5.jpg" alt="image" />
+                </div>
+
+                <h5 class="f-size-5 f-weight-500 c-black">Ezaza home decor</h5>
+                <p class="f-size-6 f-weight-400 c-gray">
+                  Home Decor and Interior Design
+                </p>
+
+                <div class="sectors_cardBtn">
+                  <span class="f-size-6 f-weight-500 c-blue">Read More</span>
+                  <i class="bi bi-arrow-right f-size-6 c-blue"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+            <div class="sectors_card">
+              <a href="#">
+                <div class="sectors_cardImg">
+                  <i class="bi bi-globe2"></i>
+                  <img src="image/jpg/sectors_img8.jpg" alt="image" />
+                </div>
+
+                <h5 class="f-size-5 f-weight-500 c-black">Ezaza china</h5>
+                <p class="f-size-6 f-weight-400 c-gray">
+                  Import and Export Services with China
+                </p>
+
+                <div class="sectors_cardBtn">
+                  <span class="f-size-6 f-weight-500 c-blue">Read More</span>
+                  <i class="bi bi-arrow-right f-size-6 c-blue"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sectors end -->
+
+    <!-- partners start -->
+    <section class="partners" id="partners">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-8 mx-auto">
+            <div class="partners_title">
+              <span class="f-size-6 f-weight-500 c-blue">Our Partners</span>
+
+              <h3 class="f-size-2 f-weight-700 c-black">
+                We work with reliable partners
+              </h3>
+
+              <p class="f-size-4 f-weight-400 c-gray">
+                We successfully collaborate with local and international
+                companies
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="swiper partners_swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide partners_slide">
+                  <img src="image/png/partners_img1.png" alt="image" />
+                </div>
+
+                <div class="swiper-slide partners_slide">
+                  <img src="image/png/partners_img2.png" alt="image" />
+                </div>
+
+                <div class="swiper-slide partners_slide">
+                  <img src="image/png/partners_img3.png" alt="image" />
+                </div>
+
+                <div class="swiper-slide partners_slide">
+                  <img src="image/png/partners_img4.png" alt="image" />
+                </div>
+
+                <div class="swiper-slide partners_slide">
+                  <img src="image/png/partners_img5.png" alt="image" />
+                </div>
+
+                <div class="swiper-slide partners_slide">
+                  <img src="image/png/partners_img6.png" alt="image" />
+                </div>
+
+                <div class="swiper-slide partners_slide">
+                  <img src="image/png/partners_img7.png" alt="image" />
+                </div>
+
+                <div class="swiper-slide partners_slide">
+                  <img src="image/png/partners_img8.png" alt="image" />
+                </div>
+
+                <div class="swiper-slide partners_slide">
+                  <img src="image/png/partners_img9.png" alt="image" />
+                </div>
+
+                <div class="swiper-slide partners_slide">
+                  <img src="image/png/partners_img10.png" alt="image" />
+                </div>
+
+                <div class="swiper-slide partners_slide">
+                  <img src="image/png/partners_img11.png" alt="image" />
+                </div>
+
+                <div class="swiper-slide partners_slide">
+                  <img src="image/png/partners_img12.png" alt="image" />
+                </div>
+
+                <div class="swiper-slide partners_slide">
+                  <img src="image/png/partners_img13.png" alt="image" />
+                </div>
+
+                <div class="swiper-slide partners_slide">
+                  <img src="image/png/partners_img14.png" alt="image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- partners end -->
+
+    <!-- map start -->
+    <section class="map" id="map">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-8 mx-auto">
+            <div class="map_title">
+              <span class="f-size-6 f-weight-500 c-blue">Our Address</span>
+
+              <h3 class="f-size-2 f-weight-700 c-black">EZAZA on the Map</h3>
+
+              <p class="f-size-4 f-weight-400 c-gray">
+                Visit our office or open our location in your preferred map app.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+            <div class="map_info">
+              <h5 class="f-size-4 f-weight-700 c-black">Contact Information</h5>
+
+              <div class="map_infoCard">
+                <div>
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+
+                <div>
+                  <h6 class="f-size-6 f-weight-500 c-black">Address</h6>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    Gulchorbog MFY, Bukhara City, Uzbekistan
+                  </a>
+                </div>
+              </div>
+
+              <div class="map_infoCard">
+                <div>
+                  <i class="bi bi-telephone"></i>
+                </div>
+
+                <div>
+                  <h6 class="f-size-6 f-weight-500 c-black">Phone Number</h6>
+                  <a
+                    href="tel:+998971811111"
+                    class="f-size-6 f-weight-400 c-gray"
+                  >
+                    +998 (97) 181-11-11
+                  </a>
+                </div>
+              </div>
+
+              <div class="map_infoCard">
+                <div>
+                  <i class="bi bi-envelope"></i>
+                </div>
+
+                <div>
+                  <h6 class="f-size-6 f-weight-500 c-black">Email</h6>
+
+                  <a
+                    href="mailto:info@ezazagroup.uz"
+                    class="f-size-6 f-weight-400 c-gray"
+                  >
+                    info@ezazagroup.uz
+                  </a>
+                </div>
+              </div>
+
+              <div class="map_infoCard">
+                <div>
+                  <i class="bi bi-clock"></i>
+                </div>
+
+                <div>
+                  <h6 class="f-size-6 f-weight-500 c-black">Working Hours</h6>
+                  <p class="f-size-6 f-weight-400 c-gray">
+                    Monday – Friday: 08:30 – 17:30
+                    <br />
+                    Saturday: 09:00 – 16:00
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-7 col-xl-8">
+            <div class="map_iframe">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5828.90990845052!2d64.46726!3d39.780823!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDQ2JzUxLjAiTiA2NMKwMjgnMDIuMSJF!5e1!3m2!1sru!2s!4v1769783311308!5m2!1sru!2s"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- map end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer_row row-gap-3 row-gap-sm-4">
+          <div class="col-12 col-md-6 col-xl-3 order-1 order-xl-1">
+            <div class="footer_main">
+              <div class="footer_logo">
+                <a href="index.html">
+                  <img src="image/png/logo.png" alt="logo" />
+                  <span class="f-size-4 f-weight-500 c-white">EZAZA</span>
+                </a>
+              </div>
+
+              <p class="f-size-6 f-weight-400 c-gray">
+                A trusted partner in Uzbekistan since 2011. A diversified
+                business group.
+              </p>
+
+              <div class="footer_social">
+                <a href="#" target="_blank">
+                  <i class="bi bi-facebook"></i>
+                </a>
+
+                <a href="#" target="_blank">
+                  <i class="bi bi-instagram"></i>
+                </a>
+
+                <a href="#" target="_blank">
+                  <i class="bi bi-telegram"></i>
+                </a>
+
+                <a href="#" target="_blank">
+                  <i class="bi bi-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-xl-3 order-3 order-xl-2">
+            <div class="footer_sectors">
+              <h5 class="f-size-5 f-weight-500 c-white">Sectors</h5>
+
+              <ul>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    ezaza gift
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    ezaza event
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    ezaza led light sound
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    ezaza embroidery art
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-xl-3 order-4 order-xl-3">
+            <div class="footer_sectors">
+              <h5 class="f-size-5 f-weight-500 c-white">Sectors</h5>
+
+              <ul>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    ezaza home decor
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">ezaza med</a>
+                </li>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    ezaza trade
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="f-size-6 f-weight-400 c-gray">
+                    ezaza china
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3 order-2 order-xl-4">
+            <div class="footer_contact">
+              <h5 class="f-size-5 f-weight-500 c-white">Contact</h5>
+
+              <div class="footer_contactCard">
+                <a href="#" class="f-size-6 f-weight-400 c-gray">
+                  <i class="bi bi-geo-alt"></i>
+                  <span> Gulchorbog MFY, Bukhara City, Uzbekistan </span>
+                </a>
+              </div>
+
+              <div class="footer_contactCard">
+                <a
+                  href="tel:+998971811111"
+                  class="f-size-6 f-weight-400 c-gray"
+                >
+                  <i class="bi bi-telephone"></i>
+                  <span>+998 (97) 181-11-11</span>
+                </a>
+              </div>
+
+              <div class="footer_contactCard">
+                <a
+                  href="mailto:info@ezazagroup.uz"
+                  class="f-size-6 f-weight-400 c-gray"
+                >
+                  <i class="bi bi-envelope"></i>
+                  <span>info@ezazagroup.uz</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="footer_copyright">
+              <p class="f-size-6 f-weight-400 c-gray">
+                <i class="bi bi-c-circle"></i>
+                <span> 2011–2024 EZAZA. All rights reserved. </span>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="footer_terms">
+              <a href="#" class="f-size-6 f-weight-400 c-gray">
+                Privacy Policy
+              </a>
+
+              <a href="#" class="f-size-6 f-weight-400 c-gray">
+                Terms of Use
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
